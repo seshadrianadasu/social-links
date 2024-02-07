@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--OffBlack);
+    color:var(--White);  
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+main{
+    background: var(--DarkGrey);
+    max-width: 100%;
+    margin: 3px;
+    padding: 20px 20px;
+    border-radius: 0.5rem;
+    display: grid;
+    text-align: center;
+    
+
+}
+.avatar img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  width: 28%;
+  padding: 1rem 0;
+
+}
+.jessica{
+    font-family: "inter","serif";
+    font-weight: 400;
+}
+.jessica h5{
+    color: var(--Green);
+    padding: 1rem 0;
+    font-weight: 700;
+}
+.about{
+    padding: 1rem ;
+    font-family: "inter","serif";
+    font-size: 14px;
+    font-weight: 400;
+}
+.social-links{
+    margin :10px;
+
+}
+.social-links h3{
+    display: block;
+    background: var(--Grey);
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 7px;
+    padding: 0.5rem;
+    font-family: "inter","serif";
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.social-links h3:hover{
+    color: var(--OffBlack);
+    background: var(--Green);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
